@@ -31,7 +31,7 @@ public class ProdutoBuilderTest {
             assertEquals("Codigo do produto invalido", e.getMessage());
         }
     }
-    
+
     @Test
     void deveRetornarProdutoValido() {
         ProdutoBuilder produtoBuilder = new ProdutoBuilder();
